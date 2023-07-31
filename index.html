@@ -1,11 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>&laquo;СПЕЦАРОМАТ&raquo; - сертифицированный производитель приправ и специй</title>
+	<link rel="stylesheet" href="css/style.css">
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	
+<!-- Фавиконка -->
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2e859e">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+<!-- Фавиконка -->
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+
 </head>
 <body>
-	<p>Это второй проект</p>
+
+<!-- НАЧАЛО ШАПКИ -->
+
+<header>
+	<div class="top-bar">
+		<a href="tel:+375296899466" class="rise-shake" title="+375 (29) 689-94-66"><ion-icon name="call"></ion-icon>+375 (29) 689-94-66</a>
+		<span>Время работы: Вт-Вс c 8:00 до 16:00</span>
+		<a href="mailto:sxivi@yandex.by" class="rise-shake" title="sxivi@yandex.by"><ion-icon name="mail"></ion-icon>sxivi@yandex.by</a>
+	</div>
+	<nav>
+		<div class="logo">
+			<a href="index.html" title="&laquo;СпецАромат&raquo; - сертифицированный производитель приправ и специй"><img src="image/logo.png" alt="logo"></a>
+		</div>
+		<div class="toggle">
+			<a href="#" title=""><ion-icon name="menu-outline"></ion-icon></a>
+		</div>
+		<ul class="menu">
+			<li><a href="index.html" title="">Главная</a></li>
+			<li><a href="catalog.html" title="">Каталог</a></li>
+			<li><a href="dostavka-i-oplata.html" title="">Оплата и Доставка</a></li>
+			<li><a href="company.html" title="">О Компании</a></li>
+			<li><a href="contacts.html" title="">Контакты</a></li>
+		</ul>
+	</nav>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$(".toggle").on("click", function(){
+				if($(".menu").hasClass("active")){
+					$(".menu").removeClass("active");
+					$(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+				} else {
+					$(".menu").addClass("active");
+					$(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+				}
+			});
+		});
+	</script>
+
+</header>
+
+<!-- КОНЕЦ ШАПКИ -->
+
+<!-- НАЧАЛО ГЛАВНОГО ФОНА (КАРТИНКА) -->
+
+  	 <section class="home">
+		<img src="image/header.jpg" alt="home">
+	</section>   
+ 
+<!-- КОНЕЦ ГЛАВНОГО ФОНА (КАРТИНКА) -->
+
+<!-- НАЧАЛО ТЕКСТА ГЛАВНОГО ФОНА -->
+
+   <section class="bg-text">
+  <h1>Натуральные специи и приправы	</h1>
+  <div class="flip">
+    <div><div>Лучшее качество</div></div>
+    <div><div>Доставка по всему городу</div></div>
+    <div><div>Большой выбор ассортимента</div></div>
+  </div>
+	</section> 
+
+<!-- КОНЕЦ ТЕКСТА ГЛАВНОГО ФОНА  -->
+
+<!-- НАЧАЛО КНОПКА КАТАЛОГ -->
+
+	     <a href="catalog.html" class="button button-animate" title=""><span>В каталог</span></a>  
+
+<!-- КОНЕЦ КНОПКА КАТАЛОГ -->
+
+<!-- НАЧАЛО БЛОКА КАТАЛОГА -->
+
+     <section class="container-catalog">
+	<h2 data-aos="zoom-in-up">Каталог продукции </h2>
+	<div class="catalog-box" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+		<a href="catalog-perzi.html" title="Перцы">
+			<figure>
+				<span>
+				<img src="image/perez.jpg" alt="Перцы">
+			</span>
+				<figcaption>Перцы</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-perzi.html" title="">Перейти</a>
+	</div>
+
+	<div class="catalog-box" data-aos="fade-down"
+     data-aos-anchor-placement="top-center">
+		<a href="catalog-pranosti.html" title="Пряности">
+			<figure>
+				<span>
+				<img src="image/koriza.jpg" alt="Пряности">
+			</span>
+				<figcaption>Пряности</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-pranosti.html" title="">Перейти</a>
+	</div>
+
+	<div class="catalog-box" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+		<a href="catalog-pripravi.html" title="Приправы">
+			<figure>
+				<span>
+				<img src="image/pripravi.jpg" alt="Приправы">
+			</span>
+				<figcaption>Приправы</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-pripravi.html" title="">Перейти</a>
+	</div>
+
+	<div class="catalog-box" data-aos="fade-down"
+     data-aos-anchor-placement="top-center">
+		<a href="catalog-kulinarni-dobavki.html" title="Кулинарные добавки">
+			<figure>
+				<span>
+				<img src="image/con-dobavki.jpg" alt="Кулинарные добавки">
+			</span>
+				<figcaption>Кулинарные добавки</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-kulinarni-dobavki.html" title="">Перейти</a>
+	</div>
+</section>  
+ 
+<!-- КОНЕЦ БЛОКА КАТАЛОГА -->
+
+<!-- НАЧАЛО БЛОКА ПОПУЛЯРНЫЕ ТОВАРЫ -->
+ 
+    <section class="container-popularnie" data-aos="zoom-in-up">
+	<h2>Популярные товары </h2>
+	<div class="tovari-box">
+		<a href="catalog-perzi-pdm.html" title="Перец душистый молотый">
+			<figure>
+				<span>
+				<img src="image/tovar1.jpg" alt="Перец душистый молотый">
+			</span>
+				<figcaption>
+					<p class="icon-check"><ion-icon name="checkmark-circle"></ion-icon>В наличии</p>
+					<p>Перец душистый молотый</p>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+
+	<div class="tovari-box">
+		<a href="catalog-kulinarni-dobavki-posupki-zvezdochki2.html" title="Посыпка кондитерская Звёздочки">
+			<figure>
+				<span>
+				<img src="image/tovar2.jpg" alt="Посыпка кондитерская Звёздочки">
+			</span>
+				<figcaption>
+					<p class="icon-check"><ion-icon name="checkmark-circle"></ion-icon>В наличии</p>
+					<p>Посыпка кондитерская Звёздочки</p>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+
+	<div class="tovari-box">
+		<a href="catalog-pripravi-doy-pack-aromatnia15.html" title="Приправа Ароматная 15 овощей и трав">
+			<figure>
+				<span>
+				<img src="image/tovar3.png" alt="Приправа Ароматная 15 овощей и трав">
+			</span>
+				<figcaption>
+					<p class="icon-check"><ion-icon name="checkmark-circle"></ion-icon>В наличии</p>
+					<p>Приправа Ароматная 15 овощей и трав</p>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+
+	<div class="tovari-box">
+		<a href="catalog-pripravi-10gr-karri.html" title="Приправа Карри">
+			<figure>
+				<span>
+				<img src="image/tovar4.jpg" alt="Приправа Карри">
+			</span>
+				<figcaption>
+					<p class="icon-check"><ion-icon name="checkmark-circle"></ion-icon>В наличии</p>
+					<p>Приправа Карри</p>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+
+	<div class="wrap-btn">
+		<a class="btn-tovari left" href="catalog.html" title="">Весь каталог</a>
+	</div>
+		
+</section>   
+	
+
+
+<!-- КОНЕЦ БЛОКА ПОПУЛЯРНЫЕ ТОВАРЫ -->
+
+<!-- НАЧАЛО БЛОКА ПРЕИМУЩЕСТВА -->
+
+   <section class="container-preimushestva" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+ 	<h2>Наши преимущества</h2>
+	<div class="preimushestva-box">
+		<div class="box-img">
+			<img src="image/preim1.jpg" alt="Преимущества">
+		</div>
+		<div class="img-png">
+			<img style="width: 85px" src="image/dostavka.png" alt="Быстрая Доставка">
+			<h3>БЫСТРАЯ ДОСТАВКА</h3>
+			<p>Доставляем товар по городу Минску. Возможна отправка почтой во все области РБ</p>
+		</div>
+	</div>
+
+	<div class="preimushestva-box">
+		<div class="img-png">
+			<img src="image/kachestvo.png" alt="Лучшее Качество">
+			<h3>ЛУЧШЕЕ КАЧЕСТВО</h3>
+			<p>Качество нашей продукции было неоднократно отмечено медалями и дипломами международных выставок и конкурсов</p>
+		</div>
+		<div class="box-img">
+			<img src="image/preim2.jpg" alt="Преимущества">
+		</div>
+	</div>
+
+	<div class="preimushestva-box">
+		<div class="box-img">
+			<img src="image/preim3.jpg" alt="Преимущества">
+		</div>
+				<div class="img-png">
+			<img src="image/proisvodstvo.png" alt="Собственное Производство">
+			<h3>Собственное производство </h3>
+			<p>Собственное производство, позволяющее контролировать весь производственный цикл </p>
+		</div>
+	</div>
+
+	<div class="preimushestva-box">
+				<div class="img-png">
+			<img src="image/materiali.png" alt="Современные Материалы">
+			<h3>Современные материалы</h3>
+			<p>Использование современных упаковочных материалов </p>
+		</div>
+		<div class="box-img">
+			<img src="image/preim4.jpg" alt="Преимущества">
+		</div>
+	</div>
+
+	<div class="preimushestva-box">
+		<div class="box-img">
+			<img src="image/preim5.jpg" alt="Преимущества">
+		</div>
+				<div class="img-png">
+			<img src="image/rabota.png" alt="Отлаженная Работа">
+			<h3>Отлаженная работа </h3>
+			<p>Отлаженная работа с ведущими поставщиками высококачественного натурального
+растительного сырья из стран происхождения</p>
+		</div>
+	</div>
+</section>   
+
+<!-- КОНЕЦ БЛОКА ПРЕИМУЩЕСТВА -->
+
+<!-- НАЧАЛО БЛОКА ЛОГОТИПА -->
+
+ <section class="container-logo" data-aos="fade-right">
+ 	 <h2 class="container-logo-title">О компании</h2>
+<div class="container-box-logo">
+ 	<div class="box-logo">
+    	<img src="image/logo.jpg" alt="Логотип">
+    	<h2>ООО &laquo;Славянский пищекомбинат&raquo;</h2>
+    </div>
+<div class="post-item">
+<div class="item-content"> 
+<div class="item-icon gift"></div>
+<div class="item-body">
+<h2>ООО &laquo;Славянский пищекомбинат&raquo;</h2>
+<p>Производим широкий ассортимент пряностей, приправ и кулинарных добавок под собственной торговой маркой &laquo;Спецаромат&raquo;.</p>
+<p>Специализируемся на изготовлении продукции под собственной торговой маркой заказчика. Приглашаем к сотрудничеству! </p>
+</div>
+<div class="item-footer">
+<a href="company.html" class="link" title=""><span>Подробнее</span></a>
+</div>
+</div>
+</div>
+	</div>
+</section>  
+
+
+
+<!-- КОНЕЦ БЛОКА ЛОГОТИПА -->
+
+<!-- НАЧАЛО БЛОКА СЕРТИФИКАТЫ -->
+
+<section class="container-sertifikati" data-aos="fade-right">
+<h2>Сертификаты</h2>
+
+<div style="margin-top: -50px" class="box-sertify">
+<div class="wrapper-popup">
+	<a href="#popup1" class="open-popup" title="">
+		<figure>
+				<img src="image/sertify1.jpg" alt="Сертификат">
+				<figcaption>Победитель конкурса &laquo;Инновационный продукт&raquo; ПРОДЭКСПО 2013</figcaption>
+		</figure>
+	</a>
+</div>
+<div id="popup1">
+	<div class="popup-inner">
+		<img src="image/sertify1.jpg" alt="Сертификат">
+		<a href="#popup-close" class="close-popup" title="">X</a>
+	</div>
+</div>
+	</div>
+
+<div class="box-sertify">
+<div class="wrapper-popup">
+	<a href="#popup2" class="open-popup" title="">
+		<figure>
+				<img src="image/sertify2.jpg" alt="Сертификат">
+				<figcaption>Диплом &laquo;За активное участие в формировании цивилизованного потребительского рынка в России&raquo;</figcaption>
+		</figure>
+	</a>
+</div>
+<div id="popup2">
+	<div class="popup-inner">
+		<img src="image/sertify2.jpg" alt="Сертификат">
+		<a href="#popup-close" class="close-popup" title="">X</a>
+	</div>
+</div> 
+	</div>
+
+<div class="box-sertify">
+<div class="wrapper-popup">
+	<a href="#popup3" class="open-popup" title="">
+		<figure>
+				<img src="image/sertify3.jpg" alt="Сертификат">
+				<figcaption>Диплом I степени: за высокое качество и широкий ассортимент картофельного пюре и серии припрпав торговой марки &laquo;Спецаромат&raquo;</figcaption>
+		</figure>
+	</a>
+</div>
+<div id="popup3">
+	<div class="popup-inner">
+		<img src="image/sertify3.jpg" alt="Сертификат">
+		<a href="#popup-close" class="close-popup" title="">X</a>
+	</div>
+</div>
+	</div>
+
+<div class="box-sertify">
+<div class="wrapper-popup">
+	<a href="#popup4" class="open-popup" title="">
+		<figure>
+				<img src="image/sertify4.jpg" alt="Сертификат">
+				<figcaption>Серебряная медаль в конкурсе &laquo;Инновационный продукт&raquo; ПРОДЭКСПО 2013</figcaption>
+		</figure>
+	</a>
+</div>
+<div id="popup4">
+	<div class="popup-inner">
+		<img src="image/sertify4.jpg" alt="Сертификат">
+		<a href="#popup-close" class="close-popup" title="">X</a>
+	</div>
+</div>
+	<div class="all-sertify">
+		<a href="certificates.html" title="">Все сертификаты</a>
+	</div>
+	</div>
+
+</section>
+
+<!-- КОНЕЦ БЛОКА СЕРТИФИКАТЫ -->
+
+
+<!-- НАЧАЛО ПОДВАЛА -->
+
+ <footer>
+  	 <div class="container-footer">
+  	 	<div class="footer-row">
+  	 		<div class="footer-col">
+  	 		<div class="logo">
+			<a href="index.html" title="&laquo;СпецАромат&raquo; - сертифицированный производитель приправ и специй"><img src="image/logo.png" alt="logo"></a>
+		</div>
+		<p>Производство пряностей, приправ и кулинарных добавок</p>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Каталог</h4>
+  	 			<ul>
+  	 				<li><a href="catalog-kulinarni-dobavki.html" title="">Кулинарные добавки</a></li>
+  	 				<li><a href="catalog-perzi.html" title="">Перцы</a></li>
+  	 				<li><a href="catalog-pranosti.html" title="">Пряности</a></li>
+  	 				<li><a href="catalog-pripravi.html" title="">Приправы</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Компания</h4>
+  	 			<ul>
+  	 				<li><a href="dostavka-i-oplata.html" title="">Оплата и Доставка</a></li>
+  	 				<li><a href="company.html" title="">О компании</a></li>
+  	 				<li><a href="certificates.html" title="">Сертификаты</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Контакты</h4>
+  	 			<ul>
+  	 				<li><a href="tel:+375296899466" title="+375 (29) 689-94-66"><ion-icon name="call"></ion-icon>+375 (29) 689-94-66</a></li>
+  	 				<li><a href="mailto:sxivi@yandex.by" title="sxivi@yandex.by"><ion-icon name="mail"></ion-icon>sxivi@yandex.by</a></li>
+  	 			</ul>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  <div class="copyright">
+	<p>&laquo;СпецАромат&raquo; в Беларуси 2023 &copy; Лучшие специи и приправы</p>
+</div>
+  </footer>
+
+
+<!-- КОНЕЦ ПОДВАЛА -->
+
+<!-- НАЧАЛО КНОПКА НАВЕРХ -->
+
+<a href="#" class="back-to-top"></a>
+
+
+<!-- КОНЕЦ КНОПКА НАВЕРХ -->
+
+<!-- НАЧАЛО СКРИПТА КНОПКА НАВЕРХ -->
+
+<script>
+
+	function backToTop() {
+		let button = $('.back-to-top');
+
+		$(window).on('scroll', () => {
+			if ($(this).scrollTop() >= 4000) {
+				button.fadeIn();
+			} else {
+				button.fadeOut();
+			}
+		});
+
+		button.on('click', (e) => {
+			e.preventDefault();
+			$('html').animate({scrollTop: 0}, 1000);
+		})
+
+	}
+
+	backToTop();
+</script>
+
+
+<!-- КОНЕЦ СКРИПТА КНОПКА НАВЕРХ -->
+
+<!-- НАЧАЛО СКРИПТА ПРИ ПРОКУРТКИ СТРАНИЦЫ -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+  // Global settings:
+  disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 100, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 500, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
+
+
+<!-- КОНЕЦ СКРИПТА ПРИ ПРОКУРТКИ СТРАНИЦЫ -->
+
+
+<!-- НАЧАЛО СКРИПТА ПРИ ПЕРЕХОЖЕ МЕЖДУ СТРАНИЦАМИ -->
+
+<script>
+	$(document).ready(function(){
+ var body = $("body");
+ body.fadeIn(300);
+ $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) {
+  e.preventDefault();
+  $("body").fadeOut(300);
+  var self = this;
+  setTimeout(function () {
+   window.location.href = $(self).attr("href");
+  }, 300);
+ });
+});
+</script>
+
+<!-- КОНЕЦ СКРИПТА ПРИ ПЕРЕХОЖЕ МЕЖДУ СТРАНИЦАМИ -->
+
+
 </body>
 </html>
