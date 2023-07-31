@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>&laquo;СПЕЦАРОМАТ&raquo; - сертифицированный производитель приправ и специй</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2e859e">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+
+
+</head>
+<body>
+	
+<!-- НАЧАЛО ШАПКИ -->
+
+
+<header>
+	<div class="top-bar">
+		<a href="tel:+375296899466" class="rise-shake" title="+375 (29) 689-94-66"><ion-icon name="call"></ion-icon>+375 (29) 689-94-66</a>
+		<span>Время работы: Вт-Вс c 8:00 до 16:00</span>
+		<a href="mailto:sxivi@yandex.by" class="rise-shake" title="sxivi@yandex.by"><ion-icon name="mail"></ion-icon>sxivi@yandex.by</a>
+	</div>
+	<nav>
+		<div class="logo">
+			<a href="index.html" title="&laquo;СпецАромат&raquo; - сертифицированный производитель приправ и специй"><img src="image/logo.png" alt="logo"></a>
+		</div>
+		<div class="toggle">
+			<a href="#" title=""><ion-icon name="menu-outline"></ion-icon></a>
+		</div>
+		<ul class="menu">
+			<li><a href="index.html" title="">Главная</a></li>
+			<li><a href="catalog.html" title="">Каталог</a></li>
+			<li><a href="dostavka-i-oplata.html" title="">Оплата и Доставка</a></li>
+			<li><a href="company.html" title="">О Компании</a></li>
+			<li><a href="contacts.html" title="">Контакты</a></li>
+		</ul>
+	</nav>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+	<script>
+		$(function(){
+			$(".toggle").on("click", function(){
+				if($(".menu").hasClass("active")){
+					$(".menu").removeClass("active");
+					$(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+				} else {
+					$(".menu").addClass("active");
+					$(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+				}
+			});
+		});
+	</script>
+
+</header>
+
+<!-- КОНЕЦ ШАПКИ -->
+
+
+<!-- НАЧАЛО БЛОКА ОПЛАТА И ДОСТАВКА -->
+
+<section class="certificates">
+
+<aside>
+		<ul>
+			<li><a href="dostavka-i-oplata.html" class="catalog-link" title="">Оплата и Доставка</a></li>
+			<li><a href="contacts.html" class="catalog-link" title="">Контакты</a></li>
+			<li><a href="company.html" class="catalog-link" title="">О Компании</a></li>
+			<li><a href="certificates.html" class="catalog-link" title="">Сертификаты</a></li>
+		</ul>
+	</aside>
+	<section class="container-contacts">
+	<section class="dostavka-i-oplata">
+	<h2>Оплата и Доставка</h2>
+	<div>
+		<p >В нашем интернет-магазине Spezaromat.by вы можете заказать специи с доставкой по Минску и всей Беларуси.</p>
+		</div>
+	<h2><span><img src="image/truck.png" alt="Грузовик" title=""></span>Доставка по Минску</h2>
+	<div>
+		<ul>
+			<li>Доставка при заказе до 50 рублей по городу Минск (в пределах МКАД) — 10 рублей.</li>
+			<li>При заказе от 50 рублей — доставка <mark>бесплатно!</mark></li>
+		</ul>
+	</div>
+	<h2><span><img src="image/point.png" alt="Место" title=""></span>Самовывоз в Минске</h2>
+	<div>
+		<p>Адрес самовывоза: Минский район, д. Таборы, рынок &laquo;Новый Лебяжий&raquo; киоск &#8470;06008 (6 ряд, 8 место)</p>
+		<p>Режим работы:</p>
+		<ul>
+			<li><mark>Вторник–Воскресенье.</mark> <span class="red">Понедельник – выходной!</span></li>
+			<li><mark>с 8:00 до 16:00.</mark> До рынка едет маршрутка от м. Каменная Горка</li>
+		</ul>
+		<iframe class="mini-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af70901b465bbc3ad01541dd3b97b8287f9ced8f2b30f698be6dca55b377f68ed&amp;source=constructor" width="631" height="327" frameborder="0"></iframe>
+	</div>
+	<h2><span><img src="image/pochta.png" alt="Почта" title=""></span>Почтой по Беларуси</h2>
+	<div>
+		<p>Наша компания отправляет заказы через Европочту и  Белпочту наложенным платежом по территории РБ <mark>от 50 рублей.</mark> </p>
+	</div>
+	<h3><a href="https://evropochta.by/" title="Европочта"><span class="red">ЕВРО</span><span style="color: #214480">ПОЧТА</span></a></h3>
+	<div>
+		<p>Если адресат входит в зону обслуживания Европочты, то заказ будет отправлен через этот сервис. </p>
+		<p>Проверить, обслуживаетесь ли вы Европочтой можно <a href="https://evropochta.by/about/offices/" title="Адреса европочты"><mark>тут</mark></a>. Стоимость доставки:</p>
+		<ol>
+			<li>До пункта выдачи Европочты — 5 рублей</li>
+			<li>До дверей за дополнительную плату</li>
+		</ol>
+		<p>При заказе на сумму от 100 рублей доставка до пункта выдачи <mark>бесплатно</mark>. </p>
+		<p style="color: #008000"><i>Если ваш адрес не обслуживается Европочтой, то заказ будет выслан Белпочтой.</i></p>
+	</div>
+
+	<h3><a href="https://www.belpost.by/" title="Белпочта"><span style="color:#52c0e9">БЕЛПОЧТА</span></a></h3>
+	<div>
+		<p><mark>Доставка за счёт покупателя.</mark> Цена доставки зависит от веса посылки и суммы заказа.</p>
+		<p>Средняя стоимость доставки ~7 рублей при весе посылки ~2 кг. </p>
+		<p>Рассчитать точную стоимость отправления можно на сайте Белпочты <a href="http://tarifikator.belpost.by/forms/internal/parcel.php" title="Калькулятор стоймости"><mark>(ссылка на калькулятор)</mark></a>.</p>
+		<p>По вашему желанию высылаем <mark>код для отслеживания</mark> посылки.</p>
+</div>
+	<h2><span><img src="image/paid.png" alt="Оплата" title=""></span>Оплата</h2>
+	<div>
+		<p>Оплатить заказ можно одним из способов в белорусских рублях:</p>
+		<ol>
+			<li>Наличный расчёт (курьер, самовывоз)</li>
+			<li>Наложенный платеж (Белпочта/Европочта)</li>
+			<li>Безналичный платеж</li>
+		</ol>
+		
+	</div>
+</section>
+
+	</section>
+	</section>
+<!-- КОНЕЦ БЛОКА ОПЛАТА И ДОСТАВКА -->
+
+
+<!-- НАЧАЛО ПОДВАЛА -->
+
+ <footer>
+  	 <div class="container-footer">
+  	 	<div class="footer-row">
+  	 		<div class="footer-col">
+  	 		<div class="logo">
+			<a href="index.html" title="&laquo;СпецАромат&raquo; - сертифицированный производитель приправ и специй"><img src="image/logo.png" alt="logo"></a>
+		</div>
+		<p>Производство пряностей, приправ и кулинарных добавок</p>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Каталог</h4>
+  	 			<ul>
+  	 				<li><a href="catalog-kulinarni-dobavki.html" title="">Кулинарные добавки</a></li>
+  	 				<li><a href="catalog-perzi.html" title="">Перцы</a></li>
+  	 				<li><a href="catalog-pranosti.html" title="">Пряности</a></li>
+  	 				<li><a href="catalog-pripravi.html" title="">Приправы</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Компания</h4>
+  	 			<ul>
+  	 				<li><a href="dostavka-i-oplata.html" title="">Оплата и Доставка</a></li>
+  	 				<li><a href="company.html" title="">О компании</a></li>
+  	 				<li><a href="certificates.html" title="">Сертификаты</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Контакты</h4>
+  	 			<ul>
+  	 				<li><a href="tel:+375296899466" title="+375 (29) 689-94-66"><ion-icon name="call"></ion-icon>+375 (29) 689-94-66</a></li>
+  	 				<li><a href="mailto:sxivi@yandex.by" title="sxivi@yandex.by"><ion-icon name="mail"></ion-icon>sxivi@yandex.by</a></li>
+  	 			</ul>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  <div class="copyright">
+	<p>&laquo;СпецАромат&raquo; в Беларуси 2023 &copy; Лучшие специи и приправы</p>
+</div>
+  </footer>
+
+
+<!-- КОНЕЦ ПОДВАЛА -->
+
+
+<!-- НАЧАЛО КНОПКА НАВЕРХ -->
+
+<a href="#" class="back-to-top"></a>
+
+
+<!-- КОНЕЦ КНОПКА НАВЕРХ -->
+
+<!-- НАЧАЛО СКРИПТА КНОПКА НАВЕРХ -->
+
+<script>
+
+	function backToTop() {
+		let button = $('.back-to-top');
+
+		$(window).on('scroll', () => {
+			if ($(this).scrollTop() >= 2000) {
+				button.fadeIn();
+			} else {
+				button.fadeOut();
+			}
+		});
+
+		button.on('click', (e) => {
+			e.preventDefault();
+			$('html').animate({scrollTop: 0}, 1000);
+		})
+
+	}
+
+	backToTop();
+</script>
+
+
+<!-- КОНЕЦ СКРИПТА КНОПКА НАВЕРХ -->
+
+<!-- НАЧАЛО СКРИПТА ПРИ ПЕРЕХОЖЕ МЕЖДУ СТРАНИЦАМИ -->
+
+<script>
+	$(document).ready(function(){
+ var body = $("body");
+ body.fadeIn(300);
+ $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) {
+  e.preventDefault();
+  $("body").fadeOut(300);
+  var self = this;
+  setTimeout(function () {
+   window.location.href = $(self).attr("href");
+  }, 300);
+ });
+});
+</script>
+
+<!-- КОНЕЦ СКРИПТА ПРИ ПЕРЕХОЖЕ МЕЖДУ СТРАНИЦАМИ -->
+
+</body>
+</html>

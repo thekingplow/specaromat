@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>&laquo;СПЕЦАРОМАТ&raquo; - сертифицированный производитель приправ и специй</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2e859e">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+	
+<!-- НАЧАЛО ШАПКИ -->
+
+
+<header>
+	<div class="top-bar">
+		<a href="tel:+375296899466" class="rise-shake" title="+375 (29) 689-94-66"><ion-icon name="call"></ion-icon>+375 (29) 689-94-66</a>
+		<span>Время работы: Вт-Вс c 8:00 до 16:00</span>
+		<a href="mailto:sxivi@yandex.by" class="rise-shake" title="sxivi@yandex.by"><ion-icon name="mail"></ion-icon>sxivi@yandex.by</a>
+	</div>
+	<nav>
+		<div class="logo">
+			<a href="index.html" title="&laquo;СпецАромат&raquo; - сертифицированный производитель приправ и специй"><img src="image/logo.png" alt="logo"></a>
+		</div>
+		<div class="toggle">
+			<a href="#" title=""><ion-icon name="menu-outline"></ion-icon></a>
+		</div>
+		<ul class="menu">
+			<li><a href="index.html" title="">Главная</a></li>
+			<li><a href="catalog.html" title="">Каталог</a></li>
+			<li><a href="dostavka-i-oplata.html" title="">Оплата и Доставка</a></li>
+			<li><a href="company.html" title="">О Компании</a></li>
+			<li><a href="contacts.html" title="">Контакты</a></li>
+		</ul>
+	</nav>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+	<script>
+		$(function(){
+			$(".toggle").on("click", function(){
+				if($(".menu").hasClass("active")){
+					$(".menu").removeClass("active");
+					$(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+				} else {
+					$(".menu").addClass("active");
+					$(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+				}
+			});
+		});
+	</script>
+
+</header>
+
+<!-- КОНЕЦ ШАПКИ -->
+
+<!-- НАЧАЛО БЛОКА ПРОДУКЦИЯ -->
+
+<section class="container-produczia">
+	
+	<aside>
+		<ul>
+			<li><a href="catalog-perzi.html" class="catalog-link" title="">Перцы</a></li>
+			<li><a href="catalog-pranosti.html" class="catalog-link" title="">Пряности</a></li>
+			<li><a href="catalog-pripravi.html" class="catalog-link" title="">Приправы</a></li>
+			<li><a href="catalog-kulinarni-dobavki.html" class="catalog-link" title="">Кулинарные добавки</a></li>
+		</ul>
+	</aside>
+	<div>
+		<section class="container-catalog">
+	<h2>Продукция</h2>
+
+	<!-- НАЧАЛО ХЛЕБНЫЕ КРОШКИ -->
+
+    <ol vocab="http://schema.org/" typeof="BreadcrumbList" class="breadcrumbs">
+            <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="index.html">
+                    <span property="name">Главная</span>
+                </a>
+                <meta property="position" content="1">
+             </li>
+            <li property="itemListElement" typeof="ListItem">
+                <span property="name">Каталог</span>
+                <meta property="item" content="./catalog.html">
+                <meta property="position" content="2">
+            </li>
+        </ol>
+
+	<!-- КОНЕЦ ХЛЕБНЫЕ КРОШКИ -->
+
+	<div class="catalog-box">
+		<a href="catalog-perzi.html" title="Перцы">
+			<figure>
+				<span>
+				<img src="image/perez.jpg" alt="Перцы">
+			</span>
+				<figcaption>Перцы</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-perzi.html" title="">Перейти</a>
+	</div>
+	<div class="catalog-box">
+		<a href="catalog-pranosti.html" title="Пряности">
+			<figure>
+				<span>
+				<img src="image/koriza.jpg" alt="Пряности">
+			</span>
+				<figcaption>Пряности</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-pranosti.html" title="">Перейти</a>
+	</div>
+	<div class="catalog-box">
+		<a href="catalog-pripravi.html" title="Приправы">
+			<figure>
+				<span>
+				<img src="image/pripravi.jpg" alt="Приправы">
+			</span>
+				<figcaption>Приправы</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-pripravi.html" title="">Перейти</a>
+	</div>
+	<div class="catalog-box">
+		<a href="catalog-kulinarni-dobavki.html" title="Кулинарные добавки">
+			<figure>
+				<span>
+				<img src="image/con-dobavki.jpg" alt="Кулинарные добавки">
+			</span>
+				<figcaption>Кулинарные добавки</figcaption>
+			</figure>
+		</a>
+			<a class="btn-catalog" href="catalog-kulinarni-dobavki.html" title="">Перейти</a>
+	</div>
+</section>  
+	</div>
+
+
+</section>
+
+<!-- КОНЕЦ БЛОКА ПРОДУКЦИЯ -->
+
+
+<!-- НАЧАЛО ПОДВАЛА -->
+
+ <footer>
+  	 <div class="container-footer">
+  	 	<div class="footer-row">
+  	 		<div class="footer-col">
+  	 		<div class="logo">
+			<a href="index.html" title="&laquo;СпецАромат&raquo; - сертифицированный производитель приправ и специй"><img src="image/logo.png" alt="logo"></a>
+		</div>
+		<p>Производство пряностей, приправ и кулинарных добавок</p>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Каталог</h4>
+  	 			<ul>
+  	 				<li><a href="catalog-kulinarni-dobavki.html" title="">Кулинарные добавки</a></li>
+  	 				<li><a href="catalog-perzi.html" title="">Перцы</a></li>
+  	 				<li><a href="catalog-pranosti.html" title="">Пряности</a></li>
+  	 				<li><a href="catalog-pripravi.html" title="">Приправы</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Компания</h4>
+  	 			<ul>
+  	 				<li><a href="dostavka-i-oplata.html" title="">Оплата и Доставка</a></li>
+  	 				<li><a href="company.html" title="">О компании</a></li>
+  	 				<li><a href="certificates.html" title="">Сертификаты</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Контакты</h4>
+  	 			<ul>
+  	 				<li><a href="tel:+375296899466" title="+375 (29) 689-94-66"><ion-icon name="call"></ion-icon>+375 (29) 689-94-66</a></li>
+  	 				<li><a href="mailto:sxivi@yandex.by" title="sxivi@yandex.by"><ion-icon name="mail"></ion-icon>sxivi@yandex.by</a></li>
+  	 			</ul>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  <div class="copyright">
+	<p>&laquo;СпецАромат&raquo; в Беларуси 2023 &copy; Лучшие специи и приправы</p>
+</div>
+  </footer>
+
+
+<!-- КОНЕЦ ПОДВАЛА -->
+
+<!-- НАЧАЛО КНОПКА НАВЕРХ -->
+
+<a href="#" class="back-to-top"></a>
+
+
+<!-- КОНЕЦ КНОПКА НАВЕРХ -->
+
+<!-- НАЧАЛО СКРИПТА КНОПКА НАВЕРХ -->
+
+<script>
+
+	function backToTop() {
+		let button = $('.back-to-top');
+
+		$(window).on('scroll', () => {
+			if ($(this).scrollTop() >= 2000) {
+				button.fadeIn();
+			} else {
+				button.fadeOut();
+			}
+		});
+
+		button.on('click', (e) => {
+			e.preventDefault();
+			$('html').animate({scrollTop: 0}, 1000);
+		})
+
+	}
+
+	backToTop();
+</script>
+
+
+<!-- КОНЕЦ СКРИПТА КНОПКА НАВЕРХ -->
+
+<!-- НАЧАЛО СКРИПТА ПРИ ПЕРЕХОЖЕ МЕЖДУ СТРАНИЦАМИ -->
+
+<script>
+	$(document).ready(function(){
+ var body = $("body");
+ body.fadeIn(300);
+ $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) {
+  e.preventDefault();
+  $("body").fadeOut(300);
+  var self = this;
+  setTimeout(function () {
+   window.location.href = $(self).attr("href");
+  }, 300);
+ });
+});
+</script>
+
+<!-- КОНЕЦ СКРИПТА ПРИ ПЕРЕХОЖЕ МЕЖДУ СТРАНИЦАМИ -->
+
+
+</body>
+</html>
